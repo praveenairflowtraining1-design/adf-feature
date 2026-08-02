@@ -1,0 +1,15 @@
+{
+	"name": "datafactorydev1212",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7c789554-32f2-40f7-ac0b-598cc977c94b",
+		"tenantId": "9257b259-0027-4185-b895-9bc6ea2c12a5"
+	}
+}

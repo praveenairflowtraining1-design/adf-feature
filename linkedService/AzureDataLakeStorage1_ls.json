@@ -1,0 +1,12 @@
+{
+	"name": "AzureDataLakeStorage1_ls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://oraclestorageaccountadls.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEFDODMyNENCLUM0NTItNDk0OS05NTMzLTk0MkFFNzU4RURCNV8zZjAxM2IwOS05NDA0LTRlNjItYjYyYS1mY2Q4ZjM5YWViZWQiDQp9"
+		}
+	}
+}

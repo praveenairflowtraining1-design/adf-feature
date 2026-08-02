@@ -1,0 +1,82 @@
+{
+	"name": "set_variable_pl",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "aa",
+					"value": 10
+				}
+			},
+			{
+				"name": "Set variable2",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "bb",
+					"value": 20
+				}
+			},
+			{
+				"name": "Set variable3",
+				"type": "SetVariable",
+				"dependsOn": [
+					{
+						"activity": "Set variable1",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					},
+					{
+						"activity": "Set variable2",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "dd",
+					"value": {
+						"value": "@mul(variables('aa'),variables('bb'))",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"variables": {
+			"aa": {
+				"type": "Integer"
+			},
+			"bb": {
+				"type": "Integer"
+			},
+			"cc": {
+				"type": "Integer"
+			},
+			"dd": {
+				"type": "Integer"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2026-07-27T00:40:37Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

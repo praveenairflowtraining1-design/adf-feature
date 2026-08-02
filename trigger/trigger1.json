@@ -1,0 +1,25 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "aws_to_adls_data_ingest_pl_copy1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2026-07-21T03:14:00",
+				"endTime": "2026-07-28T02:24:06",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"name": "trigger4EVENTBASEDTRIGGER",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/bronze/blobs/",
+			"blobPathEndsWith": ".txt",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/490b712f-753c-422a-a135-7c6eee68d805/resourceGroups/adf-dev-rg/providers/Microsoft.Storage/storageAccounts/adlsadls123",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

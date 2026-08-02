@@ -1,0 +1,47 @@
+{
+	"name": "Json3_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AmazonS32_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AmazonS3Location",
+				"bucketName": "aws-s3-json-bukct",
+				"fileName": "ter18.json"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "integer"
+				},
+				"name": {
+					"type": "string"
+				},
+				"location": {
+					"type": "object",
+					"properties": {
+						"city": {
+							"type": "string"
+						},
+						"state": {
+							"type": "string"
+						}
+					}
+				},
+				"skills": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
