@@ -1,0 +1,207 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactorydev1212"
+		},
+		"AmazonS31_secretAccessKey": {
+			"value": ""
+		},
+		"AmazonS32_ls_secretAccessKey": {
+			"value": ""
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1jultrg_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage4_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage5_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage5_fr_each_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_ls_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1srcls_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3adb_ls_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage40_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage41_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage42_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage43incr_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_ls_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"Oracle1_password": {
+			"value": ""
+		},
+		"Oracle2_password": {
+			"value": ""
+		},
+		"Oracle3_password": {
+			"value": ""
+		},
+		"Snowflake1_password": {
+			"value": ""
+		},
+		"Snowflake2_password": {
+			"value": ""
+		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
+		"linkedService2_connectionString": {
+			"value": ""
+		},
+		"AmazonS31_properties_typeProperties_accessKeyId": {
+			"value": "AKIAXDFFGBQI7L5PG727"
+		},
+		"AmazonS32_ls_properties_typeProperties_accessKeyId": {
+			"value": "AKIAXDFFGBQI7L5PG727"
+		},
+		"AzureBlobStorage1_ls_sasUri": {
+			"value": ""
+		},
+		"AzureBlobStorage2sf_sasUri": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://storageaccountjulyadls.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage1_ls_properties_typeProperties_url": {
+			"value": "https://oraclestorageaccountadls.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage1srcls_properties_typeProperties_url": {
+			"value": "https://storageaccountjulyadls.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://oraclestorageaccountadls.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://azureadlstorageact.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3adb_ls_properties_typeProperties_url": {
+			"value": "https://azureadlstorageact.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage40_properties_typeProperties_url": {
+			"value": "https://azureadlstorageact.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage41_properties_typeProperties_url": {
+			"value": "https://azureadlstorageact.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage42_properties_typeProperties_url": {
+			"value": "https://adlsadls123.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage43incr_properties_typeProperties_url": {
+			"value": "https://adlsadls123.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_ls_properties_typeProperties_url": {
+			"value": "https://azureadlstorageact.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "afr5gb.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "aztrtraf5"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "adm"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "azuresqlsbservrex.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "azuresqldbcreat"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "admin2"
+		},
+		"Oracle1_properties_typeProperties_server": {
+			"value": "LAPTOP-RSON7QNP"
+		},
+		"Oracle1_properties_typeProperties_username": {
+			"value": "system"
+		},
+		"Oracle2_properties_typeProperties_server": {
+			"value": "LAPTOP-RSON7QNP"
+		},
+		"Oracle2_properties_typeProperties_username": {
+			"value": "system"
+		},
+		"Oracle3_properties_typeProperties_server": {
+			"value": "LAPTOP-RSON7QNP"
+		},
+		"Oracle3_properties_typeProperties_username": {
+			"value": "system"
+		},
+		"Snowflake1_properties_typeProperties_database": {
+			"value": "EDW_DEV_DB"
+		},
+		"Snowflake2_properties_typeProperties_database": {
+			"value": "EDW_DEV_DB"
+		},
+		"trigger3eve_properties_typeProperties_scope": {
+			"value": "/subscriptions/490b712f-753c-422a-a135-7c6eee68d805/resourceGroups/adf-dev-rg/providers/Microsoft.Storage/storageAccounts/adlsadls123"
+		},
+		"trigger3event_properties_typeProperties_scope": {
+			"value": "/subscriptions/490b712f-753c-422a-a135-7c6eee68d805/resourceGroups/adf-dev-rg/providers/Microsoft.Storage/storageAccounts/adlsadls123"
+		},
+		"trigger4EVENTBASEDTRIGGER_properties_typeProperties_scope": {
+			"value": "/subscriptions/490b712f-753c-422a-a135-7c6eee68d805/resourceGroups/adf-dev-rg/providers/Microsoft.Storage/storageAccounts/adlsadls123"
+		},
+		"trigger4event6_properties_typeProperties_scope": {
+			"value": "/subscriptions/490b712f-753c-422a-a135-7c6eee68d805/resourceGroups/adf-dev-rg/providers/Microsoft.Storage/storageAccounts/adlsadls123"
+		},
+		"trigger4timh_properties_pipeline_parameters_starttime": {
+			"value": "@trigger().outputs.windowStartTime"
+		},
+		"trigger4timh_properties_pipeline_parameters_endtime": {
+			"value": "@trigger().outputs.windowEndTime"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
