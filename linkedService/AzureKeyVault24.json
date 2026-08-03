@@ -1,0 +1,10 @@
+{
+	"name": "AzureKeyVault24",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://aktest32.vault.azure.net/"
+		}
+	}
+}
